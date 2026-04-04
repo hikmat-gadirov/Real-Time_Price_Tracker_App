@@ -28,8 +28,11 @@ class PriceGenerator @Inject constructor() {
         Random.nextDouble(MIN_INITIAL_PRICE, MAX_INITIAL_PRICE)
     }.toMutableMap()
 
+    fun getInitialBaselinePrices(): Map<String, Double> {
+        return currentPrices.toMap()
+    }
+
     val fakeUpdates: Flow<List<PriceUpdateDto>> = flow {
-        // Emit initial values first
         emit(currentPrices.map { PriceUpdateDto(it.key, it.value) })
 
         while (true) {

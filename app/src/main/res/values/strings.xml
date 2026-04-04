@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Real-Time Price Tracker App</string>
+    <string name="app_name">Real Time Price Tracker App</string>
+    <string name="live_tracker_title">Live Tracker</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_start">Start</string>
+    <string name="press_start_message">Press Start to connect to feed.</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="details_title">%1$s Details</string>
+    <string name="about_title">About %1$s</string>
+    <string name="about_description">This is a detailed placeholder description for %1$s. It frequently tracks the real-time volatility of the market. The specific company fundamentals and daily volume metrics would be loaded from a separate REST API in a full retail environment.</string>
+    <string name="back">Back</string>
+    <string name="trend_up">↑</string>
+    <string name="trend_down">↓</string>
+    <string name="trend_neutral">-</string>
+    <string name="empty_price">---</string>
 </resources>

@@ -6,6 +6,19 @@ A production-grade Android application built with **Jetpack Compose** that displ
 
 ## 📱 Screenshots
 
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/2b09ad6d-a3e1-4cd5-b82e-2079fcfe4c20" width="30%" alt="Disconnected"/>
+  <img src="https://github.com/user-attachments/assets/74bf76fa-dcfd-4f10-a13f-dbb70cac8bc1" width="30%" alt="Connected"/>
+  <img src="https://github.com/user-attachments/assets/d28c37ff-aed4-4964-990e-f30b32059993" width="30%" alt="Detail Screen"/>
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/412550da-5148-485c-97d5-1197d5e4167d" width="30%" alt="Disconnected"/>
+  <img src="https://github.com/user-attachments/assets/a6102a71-70e8-41d7-8a40-f0df0871d367" width="30%" alt="Connected"/>
+  <img src="https://github.com/user-attachments/assets/7a87eb86-d9f8-41a0-89ec-cde803934f93" width="30%" alt="Detail Screen"/>
+</div>
+
+
 > Launch the app → tap **Start** to connect → watch 25 symbols update live every 2 seconds. Tap any row to view the symbol detail screen. Deep-link directly to any symbol via `stocks://symbol/AAPL`.
 
 ---
